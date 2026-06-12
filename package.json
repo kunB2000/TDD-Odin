@@ -1,26 +1,15 @@
 {
-  "name": "tdd-odin",
   "version": "1.0.0",
-  "main": "capitalize.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest --watchAll --verbose"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kunB2000/TDD-Odin.git"
+  "devDependencies": {
+    "vite": "^2.3.5"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kunB2000/TDD-Odin/issues"
-  },
-  "homepage": "https://github.com/kunB2000/TDD-Odin#readme",
-  "description": ""
-}
-
-{
-  "scripts": {
-    "test": "jest"
+  "dependencies": {
+    "jest": "^277.0.3"
   }
 }
